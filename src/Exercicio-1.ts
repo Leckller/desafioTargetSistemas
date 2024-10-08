@@ -30,5 +30,4 @@ const fibo = (n: number) => {
 // Não pertence
 fibo(1236217367213682);
 
-// Pertence
 fibo(233);
