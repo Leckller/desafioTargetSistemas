@@ -4,6 +4,9 @@
   "main": "./dist/main.js",
   "scripts": {
     "dev": "ts-node",
+    "ex1": "ts-node ./src/Exercicio-1.ts",
+    "ex2": "ts-node ./src/Exercicio-2.ts",
+    "ex3": "ts-node ./src/Exercicio-3.ts",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "build": "tsc"
   },

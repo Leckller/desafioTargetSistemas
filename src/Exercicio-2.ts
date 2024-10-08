@@ -18,7 +18,7 @@ const countLetters = (letter: string, text: string) => {
     // Adiciona ao contador de acordo com a quantidade de elementos no array
     countLetter += letters.length;
   });
-  console.log(`\nForam encontrados ${countLetter} ${countLetter > 1 ? 'letras' : 'letra'} ${letter}`);
+  console.log(`\n${countLetter} ${countLetter > 1 ? 'letras' : 'letra'} ${letter}`);
 };
 
 // eslint-disable-next-line max-len
